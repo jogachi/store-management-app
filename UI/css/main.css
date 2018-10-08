@@ -10,7 +10,7 @@ General Styles
 
 html {
     font: normal 16px sans-serif;
-    color: #555;
+    color: #ffffff;
 }
 
 ul,
@@ -62,7 +62,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #232323;
+    color: #ffffff;
     padding: 35px 100px 0;
 }
 
@@ -110,8 +110,30 @@ header nav li:last-child {
     position: relative;
     justify-content: center;
     min-height: 100vh;
-    color: #232323;
+    color: #ffffff;
     text-align: center;
+}
+
+.main .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: #84d6b5;
+    z-index: -1;
+}
+
+.main .background-image:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #414a4f;
+    opacity: 0.40;
 }
 
 .main h1 {
@@ -122,6 +144,10 @@ header nav li:last-child {
 .main h3 {
     font: normal 28px 'Sawarabi Mincho', sans-serif;
     margin-bottom: 40px;
+}
+
+.main blockquote {
+    font: normal 20px 'Sawarabi Mincho', sans-serif;
 }
 
 @media (max-width: 800px) {
