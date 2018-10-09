@@ -135,3 +135,55 @@ Sidebar Nac Styles
     color: #ffffff;
     background-color: #1f222d;
 }
+
+
+/*------------------
+Dashboard Area
+--------------------*/
+
+.dash-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.dash-container p {
+    margin-top: 30%;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.tite h1 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.products,
+.orders,
+.users,
+.reports {
+    width: 20%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+.products {
+    background: #313541;
+}
+
+.orders {
+    background: #009900;
+}
+
+.users {
+    background: #0099ff;
+}
+
+.reports {
+    background: purple;
+}
