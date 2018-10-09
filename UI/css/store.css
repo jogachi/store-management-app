@@ -1,0 +1,106 @@
+/*-------------
+General Styles
+-------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+/*------------------
+Top Navigation Styles
+--------------------*/
+
+.admin {
+    --spacing: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 70px 1fr;
+    grid-template-columns: 250px;
+    grid-template-areas: "header header""nav main";
+}
+
+.admin-header {
+    display: flex;
+    flex-basis: 100%;
+    grid-area: header;
+    height: 70px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    position: relative;
+}
+
+a {
+    color: #dc5a60;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.admin-logo {
+    display: flex;
+    flex: 0 0 250px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    color: #ffffff;
+    background-color: #84d6b5;
+    font-size: 1rem;
+}
+
+.admin-bar {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 var(--spacing);
+}
+
+
+/*------------------
+Sidebar Nac Styles
+--------------------*/
+
+.sidebar {
+    flex: 0 0 250px;
+    grid-area: nav;
+    background-color: #313541;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.menu-link {
+    display: block;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #ffffff;
+    background-color: #1f222d;
+}
+
+.menu-link:focus {
+    color: #ffffff;
+    background-color: #1f222d;
+}
