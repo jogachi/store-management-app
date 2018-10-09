@@ -68,6 +68,37 @@ a {
     padding: 0 var(--spacing);
 }
 
+.search {
+    display: flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid #84d6b5;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-top: 15px;
+    height: 5vh;
+}
+
+.searchIcon {
+    margin-top: 5px;
+    padding: 0.5rem;
+}
+
+.searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+}
+
+.searchButton {
+    background: #84d6b5;
+    border: 0;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 0;
+}
+
 
 /*------------------
 Sidebar Nac Styles
