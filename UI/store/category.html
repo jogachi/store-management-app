@@ -58,7 +58,24 @@
             <div class="modal">
                 <div class="modal-content">
                     <span class="close-button">×</span>
-                    <h1>Hello, I am a modal!</h1>
+                    <h3>Add Category</h3>
+                    <hr>
+                    <div class="div">
+                        <form action="#">
+                            <label for="cname">Category Name</label>
+                            <input type="text" id="cname" name="category" placeholder="Category name...">
+
+                            <label for="status">Status</label>
+                            <select id="status" name="status">
+                                <option value="#"></option>
+                                <option value="active">Active</option>
+                                <option value="inactive">Inactive</option>
+                            </select>
+
+                            <input type="submit" name="action" value="Save Changes" class="modelinput">
+                            <input type="submit" name="action" value="Close" style="background:red;" class="modelinput">
+                        </form>
+                    </div>
                 </div>
             </div>
 
