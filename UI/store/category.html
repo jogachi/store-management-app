@@ -19,7 +19,7 @@
             </a>
             <div class="search">
                 <i class="fa fa-search searchIcon"></i>
-                <input class="searchBox" type="search" name="search" placeholder="Product name...">
+                <input class="searchBox" type="search" name="search" placeholder="Category name...">
                 <input type="submit" value="Search" class="searchButton">
             </div>
             <div class="admin-bar">
@@ -56,7 +56,7 @@
             <button class="myButton">Add Category</button>
 
             <table>
-                <h2>Manage Category</h2>
+                <caption>Manage Categories</caption>
                 <thead>
                     <tr>
                         <th scope="col">Category Name</th>
@@ -67,7 +67,22 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td data-label="Category Name">Suits</td>
+                        <td scope="row" data-label="Category Name">Suits</td>
+                        <td data-label="Status">Active</td>
+                        <td data-label="Action" class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Category Name">Jeans</td>
+                        <td data-label="Status">Active</td>
+                        <td data-label="Action" class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Category Name">Polo</td>
+                        <td data-label="Status">Inactive</td>
+                        <td data-label="Action" class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td scope="row" data-label="Category Name">Jackets</td>
                         <td data-label="Status">Active</td>
                         <td data-label="Action" class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
                     </tr>
