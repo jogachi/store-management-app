@@ -59,20 +59,31 @@
                 <caption>Manage Users</caption>
                 <thead>
                     <tr>
-                        <th scope="col">Username</th>
-                        <th scope="col">Email</th>
                         <th scope="col">Full Name</th>
+                        <th scope="col">Email</th>
                         <th scope="col">Role</th>
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td scope="row" data-label="Username">dannyke
-                        </td>
-                        <td data-label="Email">danny@email.com</td>
                         <td data-label="Full">Danny Kenya</td>
+                        <td data-label="Email">danny@email.com</td>
+                        <td data-label="Role">Admin</td>
+                        <td data-label="Action" class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="Full">Grace Unah</td>
+                        <td data-label="Email">unah254@email.com</td>
                         <td data-label="Role">Sale Attendant</td>
+                        <td data-label="Action" class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
+                    </tr>
+
+                    <tr>
+                        <td data-label="Full">Davis Kimame</td>
+                        <td data-label="Email">dav@email.com</td>
+                        <td data-label="Role">Store Attendant</td>
                         <td data-label="Action" class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
                     </tr>
 
@@ -82,12 +93,12 @@
             <div class="modal">
                 <div class="modal-content">
                     <span class="close-button">×</span>
-                    <h3>Add User</h3>
+                    <h3>Add New User</h3>
                     <hr>
                     <div class="div">
                         <form action="#">
                             <label for="role">Role</label>
-                            <select id="roe" name="role">
+                            <select id="avail" name="role">
                                 <option value=""></option>
                                 <option value="ad">Admin</option>
                                 <option value="la">Sale Attendant</option>
@@ -104,7 +115,7 @@
                             <input type="password" id="price" name="psd" placeholder="Password..." maxlength="8" required>
 
                             <label for="pass">Confirm Password</label>
-                            <input type="number" id="qty" name="qty" placeholder="Password..." maxlength="8" required>
+                            <input type="password" id="qty" name="qty" placeholder="Password..." maxlength="8" required>
 
                             <input type="submit" name="action" value="Save Changes" class="modelinput">
                             <input type="submit" name="action" value="Close" style="background:#000000;" class="modelinput">
