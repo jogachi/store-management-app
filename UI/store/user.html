@@ -82,44 +82,29 @@
             <div class="modal">
                 <div class="modal-content">
                     <span class="close-button">×</span>
-                    <h3>Add Product</h3>
+                    <h3>Add User</h3>
                     <hr>
                     <div class="div">
                         <form action="#">
-                            <label for="cname">Product Name</label>
-                            <input type="text" id="cname" name="category" placeholder="Product name..." required>
-
-                            <label for="pname">Sku</label>
-                            <input type="text" id="sku" name="sku" placeholder="Product Sku..." required>
-
-                            <label for="price">Price</label>
-                            <input type="number" id="price" name="price" placeholder="Price..." required>
-
-                            <label for="qty">Quantity</label>
-                            <input type="number" id="qty" name="qty" placeholder="Qty..." required>
-
-                            <label for="size">Size</label>
-                            <select id="size" name="size">
-                                <option value="s">S</option>
-                                <option value="m">M</option>
-                                <option value="l">L</option>
-                                <option value="xl">XL</option>
+                            <label for="role">Role</label>
+                            <select id="roe" name="role">
+                                <option value=""></option>
+                                <option value="ad">Admin</option>
+                                <option value="la">Sale Attendant</option>
+                                <option value="sa">Store Attendant</option>
                             </select>
 
-                            <label for="category">Category</label>
-                            <select id="category" name="category">
-                                <option value="shirt">Shirt</option>
-                                <option value="jeans">Jeans</option>
-                                <option value="polo">Polo</option>
-                                <option value="jack">Jackets</option>
-                            </select>
+                            <label for="uname">Full Name</label>
+                            <input type="text" id="cname" name="username" placeholder="Name..." required>
 
-                            <label for="avail">Availability</label>
-                            <select id="avail" name="avail">
-                                <option value="#"></option>
-                                <option value="yes">YES</option>
-                                <option value="no">NO</option>
-                            </select>
+                            <label for="email">Email</label>
+                            <input type="email" id="sku" name="email" placeholder="Email..." required>
+
+                            <label for="pass">Password</label>
+                            <input type="password" id="price" name="psd" placeholder="Password..." maxlength="8" required>
+
+                            <label for="pass">Confirm Password</label>
+                            <input type="number" id="qty" name="qty" placeholder="Password..." maxlength="8" required>
 
                             <input type="submit" name="action" value="Save Changes" class="modelinput">
                             <input type="submit" name="action" value="Close" style="background:#000000;" class="modelinput">
