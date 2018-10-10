@@ -363,6 +363,12 @@ button.edit {
     background: #84d6b5;
 }
 
+button.per {
+    background: #ffa31a;
+}
+
+
+
 button.delete {
     background:#ff3300;
 }
