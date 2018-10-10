@@ -276,7 +276,7 @@ Popup Button
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 
-#status, #cname {
+#status, #cname, #sku, #price, #qty, #size, #category, #avail {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
