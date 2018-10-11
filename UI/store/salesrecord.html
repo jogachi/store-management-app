@@ -112,19 +112,19 @@
             <div class="modal">
                 <div class="modal-content">
                     <span class="close-button">×</span>
-                    <h3>Add New Sale</h3>
+                    <h3>Sales Record</h3>
                     <hr>
                     <div class="div">
                         <form action="#">
 
-                            <label for="date">Date of Sale</label>
-                            <input type="date" id="cname" name="date" required>
+                            <label for="date">Start Date</label>
+                            <input type="date" id="cname" name="date" placeholder="start date" required>
+
+                            <label for="date">End Date</label>
+                            <input type="date" id="qty" name="date" placeholder="start date" required>
 
                             <label for="uname">Customer Name</label>
                             <input type="text" id="avail" name="username" required>
-
-                            <label for="uname">Customer Phone</label>
-                            <input type="number" id="qty" name="phone" required>
 
                             <label for="product">Product</label>
                             <select id="sku" name="product">
@@ -134,13 +134,18 @@
                                 <option value="sa">BRAVE SOUL BRAUN</option>
                             </select>
 
-                            <label for="qty">Quantity</label>
-                            <input type="number" id="price" name="qty" required>
+                            <label for="product">Created By</label>
+                            <select id="price" name="product">
+                                <option value=""></option>
+                                <option value="ad">Grace Unah</option>
+                                <option value="la">Daniel Otieno</option>
+                                <option value="sa">Davis Kimame</option>
+                            </select>
 
-                            <label for="amount">Total Amount</label>
+                            <label for="amount">Amount</label>
                             <input type="number" id="size" name="amount" required>
 
-                            <input type="submit" name="action" value="Create Sale" class="modelinput">
+                            <input type="submit" name="action" value="Create Record" class="modelinput">
                             <input type="submit" name="action" value="Close" style="background:#000000;" class="modelinput">
                         </form>
                     </div>
