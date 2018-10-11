@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/store.css">
+    <title>User Profile</title>
+</head>
+
+<body>
+    <div class="admin">
+        <header class="admin-header">
+            <a href="#" class="admin-logo">
+                <h2>Store Manager</h2>
+            </a>
+            <div class="admin-bar">
+                <a href="#" class="logout">Log Out</a>
+            </div>
+        </header>
+        <nav class="sidebar">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Users</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Categories</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Products</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Orders</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Sales Report</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Profile</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div class="tite">
+                <h1>User Profile</h1>
+            </div>
+
+            <table>
+                <caption>Manage Profile</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Username</th>
+                        <th scope="col">Email</th>
+                        <th scope="col">Full Name</th>
+                        <th scope="col">Role</th>
+                        <th scope="col">Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row" data-label="Username">dannyke</td>
+                        <td data-label="Email">daniel@email.com</td>
+                        <td data-label="fname">Daniel Otieno</td>
+                        <td data-label="role">Admin</td>
+                        <td data-label="Action" class="edit-buttons"><button class="edit">Edit</button><button class="delete">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <script src="../js/store.js"></script>
+</body>
+
+</html>
