@@ -20,6 +20,6 @@ Store Manager is a web application that helps store owners manage sales and prod
 - Open **index.html** using a **browser** to view the homepage
 ```
 
-### To View Store Dashboard
+## To View Store Dashboard
 
 To get into store dashboard click the link [Dashboard](https://danielotieno.github.io/store-management-app/UI/store/store.html)
