@@ -154,7 +154,7 @@ Dashboard Area
 
 .dash-container p {
     margin-top: 30%;
-    color: #ffffff;
+    color: #333333;
     font-size: 1.5rem;
 }
 
@@ -170,23 +170,13 @@ Dashboard Area
     width: 20%;
     height: 200px;
     box-sizing: border-box;
+    background: #84d6b5;
 }
 
-.products {
-    background: #313541;
+.products p:hover, .orders p:hover, .users p:hover, .reports p:hover {
+    color:#ffffff;
 }
 
-.orders {
-    background: #009900;
-}
-
-.users {
-    background: #0099ff;
-}
-
-.reports {
-    background: purple;
-}
 
 /*------------------
 Popup Button
