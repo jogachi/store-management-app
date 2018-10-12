@@ -2,6 +2,8 @@
 
 Store Manager is a web application that helps store owners manage sales and product inventory records.
 
+Site is Live at [Store Manager](https://danielotieno.github.io/store-management-app/UI/)
+
 ## Features
 
 - Easy to setup
