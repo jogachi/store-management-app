@@ -136,6 +136,11 @@ Sidebar Nac Styles
     background-color: #1f222d;
 }
 
+.active {
+    color: #ffffff;
+    background-color: #1f222d;
+}
+
 
 /*------------------
 Dashboard Area
